@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Login</title>
+</head>
+<body>
+<div class="wrapper login">
+	<div class="container">
+		<div class="content">
+			<h1 class="main-title">Login</h1>
+			<div class="login-block">
+				<form name="loginForm" method="post" enctype="multipart/form-data" class="login-form">
+					<img src="imgs/logo-02.png" class="login-form__logo">
+					<p class="login-form__p">
+						<span>Email</span> <input type="email" class="login-form__input">
+					</p>
+					<p class="login-form__p">
+						<span>Password</span> <input type="password" class="login-form__input">
+					</p>
+					<p class="login-form__p">
+						<button class="login-form__button" type="submit">Log in</button>
+					</p>
+				</form>
+				<img src="imgs/boyandphone-03.png" alt="" class="login-image">
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	setTimeout(function () {document.querySelector('.flash-messages').classList.add('show');}, 100);
+</script>
+</body>
+</html>
